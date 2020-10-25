@@ -49,14 +49,14 @@ public class SwitchDemo {
         
         //
             
-        public static void main(String[] args){
-            Scanner input = new Scanner(System.in);
+     
+            Scanner inp = new Scanner(System.in);
             int score;
-            String grade = null;
+            String result = null;
             System.out.println("Please enter your mark");
             score = input.nextInt();
             if(score>=1 && score<25){
-              grade = "Your grade is F";
+             result = "Your grade is F";
             }else if(score>=25 && score<45){
               grade = "Your grade is E";
             }else if(score>=45 && score<50){

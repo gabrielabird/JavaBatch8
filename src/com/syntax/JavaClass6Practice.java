@@ -37,18 +37,18 @@ public class JavaClass6Practice {
 		System.out.println("-----same example using switch case------");
 		String today;
 		
-		switch (day) {//data type of variable must match data type of cases
+		switch (Day) {//data type of variable must match data type of cases
 		
-		case 1:
+		case Day1:
 			today = "Monday";
 			break;
-		case 2:
+		case Day2:
 			today = "Tuesday";
 			break;
-		case 3:
+		case Day3:
 			today = "Wednesday";
 			break;
-		case 4:
+		case Day4:
 			today = "Thursday";
 			break;
 		default:

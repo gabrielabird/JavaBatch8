@@ -6,7 +6,6 @@ public class SecondPRoject {
 		// TODO Auto-generated method stub
 
 		System.out.println("yo");
-		System.out.println("ok")
-;	}
+		System.out.println("ok");	}
 
 }
